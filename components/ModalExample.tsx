@@ -12,7 +12,7 @@ import Button from "./Button"
 function ModalExample() {
   return (
     <DialogTrigger>
-      <Button label="Delete" variant="primary" size="xl" />
+      <Button label="Delete" variant="danger" size="xl" />
 
       <ModalOverlay
         className={({ isEntering, isExiting }) => `
